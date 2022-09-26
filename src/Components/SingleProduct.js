@@ -4,7 +4,6 @@ import { increment, decrement } from "../redux/ShoppingCart/actions";
 
 const SingleProduct = ({ product }) => {
   const dispatch = useDispatch();
-// console.log("product",product);
   const { id, Name, unitPrice, cartQuantity, stockQuantity } = product;
 
   const handleIncrement = (product) =>{
